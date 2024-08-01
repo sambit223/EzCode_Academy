@@ -5,7 +5,7 @@ import Card from "./Card";
 import image1 from "../assets/web-design.svg";
 import image2 from "../assets/app-development.svg";
 
-
+import Form from "./Form";
 import Banner from './Banner'
 
 import Footer from './Footer'
@@ -50,6 +50,7 @@ const Home = () => {
           price="$499"
         />
       </div>
+      <Form/>
       <Footer />
     </div>
   );
