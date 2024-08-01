@@ -24,7 +24,7 @@ const Banner = () => {
           interdum velit laoreet id donec ultrices tincidunt arcu. Maecenas
           ultricies mi eget mauris pharetra.
         </p>
-        <button className="bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600 transition">
+        <button className="bg-orange-500 text-white py-2 px-4 rounded-full w-[13rem] hover:bg-orange-600 transition">
           Know More
         </button>
       </div>

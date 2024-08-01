@@ -5,9 +5,13 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const Aboutus = () => {
   return (
+    <>
+    <div className="flex justify-center m-8">
+      
+    </div>
     <div className="flex flex-col lg:flex-row gap-5 mt-4 justify-between bg-white p-5">
       {/* About Main Section */}
-      <div className="flex flex-col gap-5 w-full lg:w-[38rem] rounded-xl shadow-lg p-4 transition-transform hover:scale-110 duration-500">
+      <div className="flex flex-col gap-5 w-full lg:w-[35rem] rounded-xl shadow-lg p-4 transition-transform hover:scale-110 duration-500">
         {/* Teacher div */}
         <div className="text-4xl font-bold text-indigo-700 leading-snug">
           <div className="flex gap-3">
@@ -64,6 +68,7 @@ const Aboutus = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
