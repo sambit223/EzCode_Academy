@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
@@ -33,14 +33,20 @@ const Footer = () => {
         <div>
           <h5 className="text-sm uppercase font-bold mb-3">Social Media</h5>
           <div className="flex space-x-3">
-            <a href="https://facebook.com" className="text-white">Facebook</a>
-            <a href="https://twitter.com" className="text-white">Twitter</a>
-            <a href="https://youtube.com" className="text-white">YouTube</a>
+            <a href="https://facebook.com" className="text-white">
+              Facebook
+            </a>
+            <a href="https://twitter.com" className="text-white">
+              Twitter
+            </a>
+            <a href="https://youtube.com" className="text-white">
+              YouTube
+            </a>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

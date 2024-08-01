@@ -12,7 +12,7 @@ const Header = () => {
     <div className="bg-white shadow-lg p-5">
       <div className="flex justify-between items-center">
         <div className="flex flex-col">
-          <h1 className="text-3xl font-bold">
+          <h1 className="text-3xl font-bold  text-indigo-700">
             EzCode<span className="text-orange-400">Academy</span>
           </h1>
           <h2 className="text-xs font-semibold mt-1 hidden md:block">
@@ -21,10 +21,7 @@ const Header = () => {
         </div>
 
         <div className="md:hidden">
-          <button
-            onClick={toggleMenu}
-            className="text-3xl focus:outline-none"
-          >
+          <button onClick={toggleMenu} className="text-3xl focus:outline-none">
             {isMenuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
@@ -62,19 +59,34 @@ const Header = () => {
         } transition-transform duration-300 ease-in-out z-20 md:hidden`}
       >
         <ul className="flex flex-col items-start gap-5 font-semibold">
-          <li onClick={toggleMenu} className="cursor-pointer text-2xl hover:text-orange-500">
+          <li
+            onClick={toggleMenu}
+            className="cursor-pointer text-2xl hover:text-orange-500"
+          >
             Home
           </li>
-          <li onClick={toggleMenu} className="cursor-pointer text-2xl hover:text-orange-500">
+          <li
+            onClick={toggleMenu}
+            className="cursor-pointer text-2xl hover:text-orange-500"
+          >
             Courses
           </li>
-          <li onClick={toggleMenu} className="cursor-pointer text-2xl hover:text-orange-500">
+          <li
+            onClick={toggleMenu}
+            className="cursor-pointer text-2xl hover:text-orange-500"
+          >
             Pages
           </li>
-          <li onClick={toggleMenu} className="cursor-pointer text-2xl hover:text-orange-500">
+          <li
+            onClick={toggleMenu}
+            className="cursor-pointer text-2xl hover:text-orange-500"
+          >
             Gallery
           </li>
-          <li onClick={toggleMenu} className="cursor-pointer text-2xl hover:text-orange-500">
+          <li
+            onClick={toggleMenu}
+            className="cursor-pointer text-2xl hover:text-orange-500"
+          >
             Contact us
           </li>
           <div className="flex flex-col gap-3 mt-5">
