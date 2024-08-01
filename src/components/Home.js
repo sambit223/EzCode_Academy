@@ -4,12 +4,18 @@ import Aboutus from "./Aboutus";
 import Card from "./Card";
 import image1 from "../assets/web-design.svg";
 import image2 from "../assets/app-development.svg";
-import Footer from "./Footer";
+
+
+import Banner from './Banner'
+
+import Footer from './Footer'
+
 const Home = () => {
   return (
     <div>
       <Header />
-      <Aboutus />
+       <Banner/>
+     <Aboutus/>
       <div className="flex flex-wrap justify-start items-center">
         <Card
           image={image1}

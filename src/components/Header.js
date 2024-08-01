@@ -15,9 +15,12 @@ const Header = () => {
           <h1 className="text-3xl font-bold  text-indigo-700">
             EzCode<span className="text-orange-400">Academy</span>
           </h1>
+          <div className="flex justify-end">
           <h2 className="text-xs font-semibold mt-1 hidden md:block">
             Simplifying code, Amplifying success
           </h2>
+          </div>
+          
         </div>
 
         <div className="md:hidden">
