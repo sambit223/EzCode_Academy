@@ -1,10 +1,12 @@
 import React from 'react'
-
+import Header from './Header'
+import Aboutus from './Aboutus'
 const Home = () => {
   return (
-    <div>
-      <h1 className='text-2xl'>This is Home components</h1>
-    </div>
+ <div>
+     <Header/>
+    <Aboutus/>
+ </div>
   )
 }
 
