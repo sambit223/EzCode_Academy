@@ -24,7 +24,7 @@ const Feedback = () => {
 
   return (
     <div className='bg-purple-50 p-4 mt-4'>
-      <h1 className='text-3xl text-center font-bold m-4 text-purple-700'>What our Students say about us</h1>
+      <h1 className='text-3xl text-center font-bold m-4 text-gray-600'>What our Students say about us</h1>
       <div className='h-auto flex justify-start items-center flex-wrap p-4 m-4 gap-8'>
         {feedbackData.map((data, i) => (
           <FeedbackCard

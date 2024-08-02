@@ -10,7 +10,7 @@ const Form = () => {
 
       <div className="w-[30rem] p-6  m-5 leading-loose">
         <div className="">
-          <h1 className="text-4xl font-bold text-indigo-700">
+          <h1 className="text-4xl font-bold text-gray-600">
             Request A{" "}
             <span className="text-4xl text-orange-400">Call Back</span>
           </h1>

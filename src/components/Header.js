@@ -9,18 +9,17 @@ const Header = () => {
   };
 
   return (
-    <div className="p-5 bg-white shadow-lg" id="header">
+    <div className="p-5 bg-white shadow-md shadow-orange-100 mb-2" id="header">
       <div className="flex items-center justify-between">
         <div className="flex flex-col">
           <h1 className="text-3xl font-bold  text-gray-600">
             EzCode<span className="text-orange-400">Academy</span>
           </h1>
           <div className="flex justify-end">
-          <h2 className="hidden mt-1 text-xs font-semibold md:block">
-            Simplifying code, Amplifying success
-          </h2>
+            <h2 className="hidden mt-1 text-gray-600 text-xs font-semibold md:block">
+              Simplifying code, Amplifying success
+            </h2>
           </div>
-          
         </div>
 
         <div className="md:hidden">
@@ -29,20 +28,20 @@ const Header = () => {
           </button>
         </div>
 
-        <ul className={`md:flex gap-5 items-center font-semibold hidden`}>
-          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
+        <ul className={`md:flex gap-8 items-center font-semibold hidden px-4 text-gray-800`}>
+          <li className="transition-transform duration-1000 ease-in-out cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-xl transform-gpu will-change-transform">
             <a href="#banner">Home</a>
           </li>
-          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
+          <li className="transition-transform duration-1000 ease-in-out cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-xl transform-gpu will-change-transform">
             <a href="#courses">Courses</a>
           </li>
-          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
-           <a href="#about"> About Us</a>
+          <li className="transition-transform duration-1000 ease-in-out cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-xl transform-gpu will-change-transform">
+            <a href="#about">About Us</a>
           </li>
-          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
+          <li className="transition-transform duration-1000 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-xl transform-gpu will-change-transform">
             Gallery
           </li>
-          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
+          <li className="transition-transform duration-1000 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-xl transform-gpu will-change-transform">
             <a href="#contact">Contact us</a>
           </li>
         </ul>
