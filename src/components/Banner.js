@@ -1,35 +1,61 @@
 import React from "react";
 import "./Animation/Animation.css";
-import girl from '../assets/girl.png.jpeg' ;
+import girl from "../assets/girl.png.jpeg";
 
 const Banner = () => {
+  const handleClick = () => {
+    if (window.location.hash === "#courses") {
+      window.location.hash = "";
+      setTimeout(() => {
+        window.location.hash = "#courses";
+      }, 0);
+    } else {
+      window.location.hash = "#courses";
+    }
+  };
   return (
-    <div className="relative flex flex-col items-center justify-between p-8 md:flex-row bg-gray-50" id="banner">
+    <div  className="p-8 flex flex-col md:flex-row items-center justify-between relative bg-gray-50">
       <div className="flex-1 text-center md:text-left md:pr-8">
-        <div className="mb-4">
+        <div className="">
           <div className="step-indicator">
-            <div className="text-white bg-orange-400 step">
+            <div className="step bg-orange-400 text-white shadow-md shadow-orange-100">
               Step 1: Discover
             </div>
-            <div className="step">Step 2: Learn</div>
-            <div className="step">Step 3: Certified</div>
+            <div className="step shadow-md shadow-orange-100">
+              Step 2: Learn
+            </div>
+            <div className="step bg-orange-400 text-white shadow-md shadow-orange-100">
+              Step 3: Mock Interviews
+            </div>
+            <div className="step shadow-md shadow-orange-100">
+            Step 4: Get certified
+            </div>
+            
           </div>
         </div>
-        <h1 className="mb-4 text-4xl font-bold text-gray-600">
+        <h1 className="text-4xl font-bold text-gray-600 mb-4">
           Discover <span className="text-orange-500">Your Ideal Courses</span>
         </h1>
-        <p className="mb-4 text-gray-700">
-          Vehicula ipsum a arcu cursus vitae congue mauris rhoncus. Mus mauris
-          vitae ultricies leo integer malesuada nunc vel risus. Tellus id
-          interdum velit laoreet id donec ultrices tincidunt arcu. Maecenas
-          ultricies mi eget mauris pharetra.
+        <p className="text-gray-700 mb-4 font-semibold">
+          We offer courses on the latest and most trending tech stacks. Our
+          approach to teaching not only imparts knowledge but also equips you
+          with the skills needed to excel in your career. Experience
+          personalized learning, hands-on projects, and real-world applications
+          that make a significant impact on your professional journey.
         </p>
-        <button className="bg-orange-500 text-white py-2 px-4 rounded-full w-[16rem] ml-20 hover:bg-orange-600 transition">
+        <p className="text-gray-700 mb-4 font-semibold">
+          Start your transformation today and see how our courses can propel
+          your career to new heights.
+        </p>
+        <button
+          onClick={handleClick}
+          className="bg-orange-500 text-white py-2 px-4 rounded-full w-[13rem] hover:bg-orange-600 transition"
+        >
           Know More
         </button>
       </div>
-      <div className="relative flex items-center justify-center flex-1">
-        <img className="" src={girl} alt="person"/>
+      <div className="flex-1 flex items-center justify-center relative">
+        <img className="" src={girl} alt="person" />
       </div>
     </div>
   );

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 18%;
   }
   
   .step {
@@ -26,7 +26,7 @@
     width: 2px;
     height: 20px;
     background-color: #f97316;
-    animation: fill 1s ease-in-out infinite alternate;
+    animation: fill 2s ease-in-out infinite alternate;
   }
   
   .step:last-child::before {

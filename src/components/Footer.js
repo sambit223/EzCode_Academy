@@ -1,5 +1,4 @@
 import React from "react";
-import Pencil from "./Pencil";
 
 const Footer = () => {
   return (
