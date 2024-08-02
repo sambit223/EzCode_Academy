@@ -12,7 +12,7 @@ const Header = () => {
     <div className="bg-white shadow-lg p-5">
       <div className="flex justify-between items-center">
         <div className="flex flex-col">
-          <h1 className="text-3xl font-bold  text-indigo-700">
+          <h1 className="text-3xl font-bold  text-gray-600">
             EzCode<span className="text-orange-400">Academy</span>
           </h1>
           <div className="flex justify-end">
@@ -29,20 +29,20 @@ const Header = () => {
           </button>
         </div>
 
-        <ul className={`md:flex gap-5 items-center font-semibold hidden`}>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
+        <ul className={`md:flex gap-9 items-center font-semibold hidden`}>
+          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-1000 hover:text-2xl">
             Home
           </li>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
+          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-1000 hover:text-2xl">
             Courses
           </li>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
+          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-1000 hover:text-2xl">
             Pages
           </li>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
+          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-1000 hover:text-2xl">
             Gallery
           </li>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
+          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-1000 hover:text-2xl">
             Contact us
           </li>
         </ul>

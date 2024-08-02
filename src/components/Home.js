@@ -5,6 +5,7 @@ import Banner from './Banner'
 import Footer from './Footer'
 import Courses from "./Courses";
 import Form from "./Form";
+import Feedback from "./Feedback";
 const Home = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const Home = () => {
        <Banner/>
       <Aboutus/>
       <Courses/>
+      <Feedback/>
       <Form/>
       <Footer />
     </div>
