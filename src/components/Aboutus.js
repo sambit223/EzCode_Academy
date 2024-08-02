@@ -7,7 +7,7 @@ const Aboutus = () => {
   return (
     <>
       <div className="flex justify-center m-8"></div>
-      <div className="flex flex-col justify-between gap-5 p-5 mt-4 bg-white lg:flex-row">
+      <div className="flex flex-col justify-between gap-5 p-5 mt-4 bg-white lg:flex-row" id="about">
         {/* About Main Section */}
         <div className="flex flex-col gap-5 w-full lg:w-[35rem] rounded-xl shadow-lg p-4 transition-transform hover:scale-110 duration-1000">
           {/* Teacher div */}
