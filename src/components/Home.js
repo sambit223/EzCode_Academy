@@ -5,6 +5,7 @@ import Banner from './Banner'
 import Footer from './Footer'
 import Courses from "./Courses";
 import Form from "./Form";
+import Feedback from "./Feedback";
 import Pencil from "./Pencil";
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
        <Banner/>
       <Aboutus/>
       <Courses/>
+      <Feedback/>
       <Form/>
       <Footer />
       <Pencil/>

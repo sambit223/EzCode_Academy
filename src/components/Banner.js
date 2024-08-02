@@ -15,7 +15,7 @@ const Banner = () => {
             <div className="step">Step 3: Certified</div>
           </div>
         </div>
-        <h1 className="mb-4 text-4xl font-bold text-purple-900">
+        <h1 className="mb-4 text-4xl font-bold text-gray-600">
           Discover <span className="text-orange-500">Your Ideal Courses</span>
         </h1>
         <p className="mb-4 text-gray-700">

@@ -12,7 +12,7 @@ const Header = () => {
     <div className="p-5 bg-white shadow-lg" id="header">
       <div className="flex items-center justify-between">
         <div className="flex flex-col">
-          <h1 className="text-3xl font-bold text-indigo-700">
+          <h1 className="text-3xl font-bold  text-gray-600">
             EzCode<span className="text-orange-400">Academy</span>
           </h1>
           <div className="flex justify-end">

@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 import image1 from "../assets/web-design.svg";
 import image2 from "../assets/app-development.svg";
+import Html from "../assets/html.png"
 
 const Courses = () => {
   return (
@@ -19,7 +20,7 @@ const Courses = () => {
           price="$299"
         />
         <Card
-          image={image2}
+          image={Html}
           date="August 5, 2024"
           duration="6 Months"
           max="40-50 Students Max"
