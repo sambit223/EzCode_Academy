@@ -13,25 +13,25 @@ const Card = ({ image, date, course, price, duration, max }) => {
       </div>
 
       <div className="flex gap-2 leading-loose">
-        <h1 className="font-semibold text-xs flex flex-col">{date}</h1>
-        <h1 className="font-semibold text-xs flex flex-col">{duration}</h1>
+        <h1 className="flex flex-col text-xs font-semibold">{date}</h1>
+        <h1 className="flex flex-col text-xs font-semibold">{duration}</h1>
       </div>
 
       <div>
-        <h1 className="font-semibold text-xs flex flex-col">{max}</h1>
+        <h1 className="flex flex-col text-xs font-semibold">{max}</h1>
       </div>
 
       <div>
-        <p className="font-bold text-xl text-start hover:text-indigo-700">
+        <p className="text-xl font-bold text-start hover:text-indigo-700">
           {course}
         </p>
       </div>
 
-      <div className="w-full shadow-lg font-semibold h-1 bg-gray-400"></div>
+      <div className="w-full h-1 font-semibold bg-gray-400 shadow-lg"></div>
 
-      <div className="flex  justify-between">
-        <h1 className="text-orange-400 font-bold text-xl">{price}</h1>
-        <button className="w-[10rem] ease-in-out hover:scale-110 bg-orange-400 hover:bg-white border hover:border-orange-500 rounded-full">
+      <div className="flex justify-between">
+        <h1 className="text-xl font-bold text-orange-400">{price}</h1>
+        <button className="w-[10rem] ease-in-out hover:scale-110 bg-orange-400 border hover:bg-blue-950 hover:border-blue-950 rounded-full hover:text-white font-bold">
           Contact Us
         </button>
       </div>

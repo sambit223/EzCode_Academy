@@ -9,14 +9,14 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-white shadow-lg p-5">
-      <div className="flex justify-between items-center">
+    <div className="p-5 bg-white shadow-lg" id="header">
+      <div className="flex items-center justify-between">
         <div className="flex flex-col">
-          <h1 className="text-3xl font-bold  text-indigo-700">
+          <h1 className="text-3xl font-bold text-indigo-700">
             EzCode<span className="text-orange-400">Academy</span>
           </h1>
           <div className="flex justify-end">
-          <h2 className="text-xs font-semibold mt-1 hidden md:block">
+          <h2 className="hidden mt-1 text-xs font-semibold md:block">
             Simplifying code, Amplifying success
           </h2>
           </div>
@@ -30,29 +30,29 @@ const Header = () => {
         </div>
 
         <ul className={`md:flex gap-5 items-center font-semibold hidden`}>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
-            Home
+          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
+            <a href="#banner">Home</a>
           </li>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
-            Courses
+          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
+            <a href="#courses">Courses</a>
           </li>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
-            Pages
+          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
+           <a href="#about"> About Us</a>
           </li>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
+          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
             Gallery
           </li>
-          <li className="cursor-pointer hover:scale-110 hover:text-orange-500 transition-transform duration-300 hover:text-2xl">
-            Contact us
+          <li className="transition-transform duration-300 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-2xl">
+            <a href="#contact">Contact us</a>
           </li>
         </ul>
 
-        <div className="flex items-center gap-5 hidden md:flex">
+        {/* <div className="flex items-center hidden gap-5 md:flex">
           <p className="text-xl cursor-pointer">Login</p>
-          <button className="transition-transform duration-300 ease-in-out hover:scale-110 bg-orange-400 hover:bg-white border hover:border-orange-500 rounded-lg p-3">
+          <button className="p-3 transition-transform duration-300 ease-in-out bg-orange-400 border rounded-lg hover:scale-110 hover:bg-white hover:border-orange-500">
             Register Now
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Mobile menu */}
@@ -64,45 +64,45 @@ const Header = () => {
         <ul className="flex flex-col items-start gap-5 font-semibold">
           <li
             onClick={toggleMenu}
-            className="cursor-pointer text-2xl hover:text-orange-500"
+            className="text-2xl cursor-pointer hover:text-orange-500"
           >
             Home
           </li>
           <li
             onClick={toggleMenu}
-            className="cursor-pointer text-2xl hover:text-orange-500"
+            className="text-2xl cursor-pointer hover:text-orange-500"
           >
             Courses
           </li>
           <li
             onClick={toggleMenu}
-            className="cursor-pointer text-2xl hover:text-orange-500"
+            className="text-2xl cursor-pointer hover:text-orange-500"
           >
             Pages
           </li>
           <li
             onClick={toggleMenu}
-            className="cursor-pointer text-2xl hover:text-orange-500"
+            className="text-2xl cursor-pointer hover:text-orange-500"
           >
             Gallery
           </li>
           <li
             onClick={toggleMenu}
-            className="cursor-pointer text-2xl hover:text-orange-500"
+            className="text-2xl cursor-pointer hover:text-orange-500"
           >
             Contact us
           </li>
-          <div className="flex flex-col gap-3 mt-5">
+          {/* <div className="flex flex-col gap-3 mt-5">
             <p onClick={toggleMenu} className="text-xl cursor-pointer">
               Login
             </p>
             <button
               onClick={toggleMenu}
-              className="transition-transform duration-300 ease-in-out hover:scale-110 bg-orange-400 hover:bg-white border hover:border-orange-500 rounded-lg p-3"
+              className="p-3 transition-transform duration-300 ease-in-out bg-orange-400 border rounded-lg hover:scale-110 hover:bg-white hover:border-orange-500"
             >
               Register Now
             </button>
-          </div>
+          </div> */}
         </ul>
       </div>
     </div>

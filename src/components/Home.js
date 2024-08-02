@@ -5,6 +5,7 @@ import Banner from './Banner'
 import Footer from './Footer'
 import Courses from "./Courses";
 import Form from "./Form";
+import Pencil from "./Pencil";
 const Home = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Home = () => {
       <Courses/>
       <Form/>
       <Footer />
+      <Pencil/>
     </div>
   );
 };
