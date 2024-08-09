@@ -16,7 +16,7 @@ const Aboutus = () => {
           <div className="text-4xl font-bold leading-snug text-indigo-700">
             <div className="flex gap-3">
               <p className="text-xl font-normal leading-10 text-orange-400">
-                How We Learn ?
+              How We Train Our Students ?
               </p>
               <FaGraduationCap className="text-orange-600" />
             </div>

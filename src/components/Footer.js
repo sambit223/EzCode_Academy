@@ -3,41 +3,40 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="relative py-10 text-white bg-blue-950">
-      <div className="container flex flex-wrap justify-around mx-auto">
+      <div className="container flex flex-wrap justify-between mx-auto">
         <div className="w-full px-4 mb-6 md:w-1/4">
           <h1 className="text-2xl font-bold text-orange-400">
             EZ<span className="text-white">CodeAcademy</span>
           </h1>
-          <p className="mt-4">
+          <div className="flex flex-col gap-2">
+          <p className="mt-4 text-sm">
             Explore our cutting-edge courses to gain skills in the latest tech
-            stacks. Experience personalized learning and hands-on projects
-            designed to boost your career. Start transforming your professional
-            journey today.
+            stacks. 
           </p>
-          <button className="px-4 py-2 mt-4 font-bold text-white bg-orange-400 rounded">
-            Get Started Now &rarr;
-          </button>
+          <p className="text-sm">Experience personalized learning and hands-on projects
+            designed to boost your career. Start transforming your professional
+            journey today.</p>
+          </div>
+          
         </div>
         <div className="w-full px-4 mb-6 md:w-1/4">
           <h2 className="text-xl font-bold text-orange-400">Contact Us</h2>
-          <p className="mt-4">ezecodeacademy.pvt.lmt</p>
-          <p>+91 987 654 3210</p>
-          <p>ezecodeacademy.support@gmail.com</p>
+          <p className="mt-4 text-sm">ezecodeacademy.pvt.lmt</p>
+          <p className="text-sm">ezecodeacademy.support@gmail.com</p>
         </div>
         <div className="w-full px-4 mb-6 md:w-1/4">
           <h2 className="text-xl font-bold text-orange-400">Explore Courses</h2>
-          <ul className="mt-4 list-disc list-inside">
+          <ul className="mt-4 list-disc list-inside text-sm">
             <li>Basics of Coding (Python / Java)</li>
-            <li>Frontend Technologies (HTML&CSS)</li>
+            <li>Frontend Technologies (HTML & CSS)</li>
             <li>Advanced Javascript</li>
             <li>React JS</li>
             <li>MERN Stack</li>
-            <li>Combo(HTML+CSS+JS+PHP+SQL)</li>
           </ul>
         </div>
         <div className="w-full px-4 mb-6 md:w-1/4 ">
-          <h2 className="text-xl font-bold text-orange-400">Use Full Links</h2>
-          <ul className="mt-3">
+          <h2 className="text-xl font-bold text-orange-400"></h2>
+          <ul className="mt-3 text-sm">
             <li className="underline">
               <a href="#about">About Us</a>
             </li>
