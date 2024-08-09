@@ -61,14 +61,14 @@ const Footer = () => {
 
             <li>
               {" "}
-              <i className="text-3xl text-pink-600 transition-transform duration-1000 bi bi-instagram hover:text-pink-800 hover:text-5xl"></i>
+              <i className="text-3xl text-pink-600 transition-transform duration-1000 cursor-pointer bi bi-instagram hover:text-pink-800 hover:text-5xl"></i>
             </li>
             <li>
               {" "}
-              <i className="text-3xl text-blue-400 transition-transform duration-1000 bi bi-twitter hover:text-blue-600 hover:text-5xl"></i>
+              <i className="text-3xl text-blue-400 transition-transform duration-1000 cursor-pointer bi bi-twitter hover:text-blue-600 hover:text-5xl"></i>
             </li>
             <li>
-              <i className="text-3xl text-green-500 transition-transform duration-1000 bi bi-whatsapp hover:text-green-700 hover:text-5xl"></i>
+              <i className="text-3xl text-green-500 transition-transform duration-1000 cursor-pointer bi bi-whatsapp hover:text-green-700 hover:text-5xl"></i>
             </li>
           </ul>
         </div>
