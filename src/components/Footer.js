@@ -35,7 +35,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="w-full px-4 mb-6 md:w-1/4 ">
-          <h2 className="text-xl font-bold text-orange-400"></h2>
+          <h2 className="text-xl font-bold text-orange-400">Quick Links</h2>
           <ul className="mt-3 text-sm">
             <li className="underline">
               <a href="#about">About Us</a>

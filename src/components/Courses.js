@@ -26,7 +26,7 @@ const Courses = () => {
           duration="3.5 Months"
           max="40-50 Students Max"
           course="Basics of Coding with FrontEnd Development"
-          price="₹1500"
+          price="₹3000"
         />
         <Card
           image={fullstack}
@@ -34,15 +34,15 @@ const Courses = () => {
           duration="6 Months"
           max="40-50 Students Max"
           course="Basics of Coding with Full stack Development"
-          price="₹2000"
+          price="₹3000"
         />
         <Card
           image={backend}
           date="August 5, 2024"
-          duration="6 Months"
+          duration="3 Months"
           max="40-50 Students Max"
           course="Basics of Coding with Backend Development"
-          price="₹2000"
+          price="₹3000"
         />
       </div>
       </>

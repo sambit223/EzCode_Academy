@@ -20,8 +20,8 @@ const Home = () => {
       <Aboutus/>
       <Courses/>
       <Feedback/>
-      <Form/>
       <Faq/>
+      <Form/>
       {/* <Quiz/> */}
       <Footer />
       <Pencil/>

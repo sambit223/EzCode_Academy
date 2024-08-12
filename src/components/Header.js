@@ -38,9 +38,9 @@ const Header = () => {
           <li className="transition-transform duration-1000 ease-in-out cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-xl transform-gpu will-change-transform">
             <a href="#about">About Us</a>
           </li>
-          <li className="transition-transform duration-1000 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-xl transform-gpu will-change-transform">
+          {/* <li className="transition-transform duration-1000 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-xl transform-gpu will-change-transform">
             Gallery
-          </li>
+          </li> */}
           <li className="transition-transform duration-1000 cursor-pointer hover:scale-110 hover:text-orange-500 hover:text-xl transform-gpu will-change-transform">
             <a href="#contact">Contact us</a>
           </li>
