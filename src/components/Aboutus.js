@@ -49,7 +49,7 @@ const Aboutus = () => {
           <img src={sambith} alt="Sambith Tripathy" className="rounded-2xl" />
           <div className="flex flex-col gap-2 m-4 text-center">
             <h1 className="text-xl font-bold text-gray-600">Sambit Tripathy </h1>
-            <span className="text-sm font-semibold">3.5+ years of Industry experience</span>
+            <span className="text-sm font-semibold">3+ years of Industry experience</span>
             <p className="font-semibold">Full Stack Developer</p>
           </div>
         </div>
