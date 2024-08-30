@@ -9,32 +9,32 @@ const Footer = () => {
             EZ<span className="text-white">CodeAcademy</span>
           </h1>
           <div className="flex flex-col gap-2">
-          <p className="mt-4 text-sm">
-            Explore our cutting-edge courses to gain skills in the latest tech
-            stacks. 
-          </p>
-          <p className="text-sm">Experience personalized learning and hands-on projects
-            designed to boost your career. Start transforming your professional
-            journey today.</p>
+            <p className="mt-4 text-sm">
+              Explore our cutting-edge courses to gain skills in the latest tech
+              stacks.
+            </p>
+            <p className="text-sm">
+              Experience personalized learning and hands-on projects designed to boost your career. Start transforming your professional journey today.
+            </p>
           </div>
-          
         </div>
         <div className="w-full px-4 mb-6 md:w-1/4">
           <h2 className="text-xl font-bold text-orange-400">Contact Us</h2>
-          <p className="mt-4 text-sm">ezecodeacademy.pvt.lmt</p>
-          <p className="text-sm">ezecodeacademy.support@gmail.com</p>
+          <p className="mt-4 text-sm">ezcodeacademy.pvt.lmt</p>
+          <p className="text-sm">ezcodeacademy4u@gmail.com</p>
         </div>
         <div className="w-full px-4 mb-6 md:w-1/4">
           <h2 className="text-xl font-bold text-orange-400">Explore Courses</h2>
           <ul className="mt-4 list-disc list-inside text-sm">
             <li>Basics of Coding (Python / Java)</li>
+            <li>Intermediate and Advanced DSA</li>
             <li>Frontend Technologies (HTML & CSS)</li>
             <li>Advanced Javascript</li>
             <li>React JS</li>
             <li>MERN Stack</li>
           </ul>
         </div>
-        <div className="w-full px-4 mb-6 md:w-1/4 ">
+        <div className="w-full px-4 mb-6 md:w-1/4">
           <h2 className="text-xl font-bold text-orange-400">Quick Links</h2>
           <ul className="mt-3 text-sm">
             <li className="underline">
@@ -57,17 +57,15 @@ const Footer = () => {
             <li>
               <i className="text-3xl text-blue-600 transition-transform duration-1000 cursor-pointer hover:text-blue-800 hover:text-5xl bi bi-facebook"></i>
             </li>
-
             <li>
-              {" "}
-              <i className="text-3xl text-pink-600 transition-transform duration-1000 cursor-pointer bi bi-instagram hover:text-pink-800 hover:text-5xl"></i>
+              <a href="https://www.instagram.com/ezcodeacademy?igsh=ODhoNzJocnk2c3ls" target="_blank" rel="noopener noreferrer">
+                <i className="text-3xl text-pink-600 transition-transform duration-1000 cursor-pointer bi bi-instagram hover:text-pink-800 hover:text-5xl"></i>
+              </a>
             </li>
             <li>
-              {" "}
-              <i className="text-3xl text-blue-400 transition-transform duration-1000 cursor-pointer bi bi-twitter hover:text-blue-600 hover:text-5xl"></i>
-            </li>
-            <li>
-              <i className="text-3xl text-green-500 transition-transform duration-1000 cursor-pointer bi bi-whatsapp hover:text-green-700 hover:text-5xl"></i>
+              <a href="https://api.whatsapp.com/send/?phone=7735004618&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                <i className="text-3xl text-green-500 transition-transform duration-1000 cursor-pointer bi bi-whatsapp hover:text-green-700 hover:text-5xl"></i>
+              </a>
             </li>
           </ul>
         </div>

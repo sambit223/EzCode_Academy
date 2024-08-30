@@ -11,7 +11,7 @@ const Courses = () => {
     <h1 className="text-4xl font-bold text-gray-600">Our Course </h1>
     <h1 className="text-4xl font-bold text-orange-400"> Categories</h1>
   </div>
-    <div className="flex flex-wrap items-center justify-start">
+    <div className="flex flex-wrap items-center justify-center">
         <Card
           image={basics}
           date="August 1, 2024"
