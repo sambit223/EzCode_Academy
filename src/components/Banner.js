@@ -14,23 +14,23 @@ const Banner = () => {
     }
   };
   return (
-    <div  className="p-8 flex flex-col md:flex-row items-center justify-between relative bg-gray-50">
+    <div className="p-8 flex flex-col md:flex-row items-center justify-between relative bg-gray-50">
       <div className="flex-1 text-center md:text-left md:pr-8">
         <div className="">
-          <div className="step-indicator">
+          <div className="step-indicator text-sm">
             <div className="step bg-orange-400 text-white shadow-md shadow-orange-100">
-              Step 1: Discover
+              Step 1: Explore Cutting-Edge Technologies and Industry Trends
             </div>
             <div className="step shadow-md shadow-orange-100">
-              Step 2: Learn
+              Step 2: Master In-Demand Skills Through Hands-On Projects
             </div>
             <div className="step bg-orange-400 text-white shadow-md shadow-orange-100">
-              Step 3: Mock Interviews
+              Step 3: Ace Mock Interviews and Earn Industry-Recognized
+              Certifications
             </div>
             <div className="step shadow-md shadow-orange-100">
-            Step 4: Get certified
+              Step 4: Launch Your Career with Top Tech Companies
             </div>
-            
           </div>
         </div>
         <h1 className="text-4xl font-bold text-gray-600 mb-4">

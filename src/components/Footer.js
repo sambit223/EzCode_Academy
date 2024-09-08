@@ -32,6 +32,8 @@ const Footer = () => {
             <li>Advanced Javascript</li>
             <li>React JS</li>
             <li>MERN Stack</li>
+            <li>UI/UX Designing</li>
+            <li>Data science and machine learning</li>
           </ul>
         </div>
         <div className="w-full px-4 mb-6 md:w-1/4">
@@ -55,16 +57,24 @@ const Footer = () => {
         <div className="flex flex-wrap justify-end gap-5 bg-transparent flex-around">
           <ul className="flex flex-wrap justify-around gap-10 m-3">
             <li>
-              <i className="text-3xl text-blue-600 transition-transform duration-1000 cursor-pointer hover:text-blue-800 hover:text-5xl bi bi-facebook"></i>
+              <i className="text-3xl text-blue-600 transition-all duration-500 ease-in-out cursor-pointer hover:text-blue-800 hover:text-4xl bi bi-facebook"></i>
             </li>
             <li>
-              <a href="https://www.instagram.com/ezcodeacademy?igsh=ODhoNzJocnk2c3ls" target="_blank" rel="noopener noreferrer">
-                <i className="text-3xl text-pink-600 transition-transform duration-1000 cursor-pointer bi bi-instagram hover:text-pink-800 hover:text-5xl"></i>
+              <a
+                href="https://www.instagram.com/ezcodeacademy?igsh=ODhoNzJocnk2c3ls"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="text-3xl text-pink-600 transition-all duration-500 ease-in-out cursor-pointer bi bi-instagram hover:text-pink-800 hover:text-4xl"></i>
               </a>
             </li>
             <li>
-              <a href="https://api.whatsapp.com/send/?phone=7735004618&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
-                <i className="text-3xl text-green-500 transition-transform duration-1000 cursor-pointer bi bi-whatsapp hover:text-green-700 hover:text-5xl"></i>
+              <a
+                href="https://chat.whatsapp.com/GjwcHvgjBEaLb8QHHTE6t9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="text-3xl text-green-500 transition-all duration-500 ease-in-out cursor-pointer bi bi-whatsapp hover:text-green-700 hover:text-4xl"></i>
               </a>
             </li>
           </ul>
